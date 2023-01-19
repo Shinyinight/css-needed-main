@@ -1,0 +1,19 @@
+.carousel{
+		opacity: 0;
+		visibility: hidden;
+		transition: opacity 1s ease;
+		&.slick-initialized{
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+
+if you dont want its height either then thanks to me
+.carousel{
+	height: 0;
+	overflow: hidden;				
+	&.slick-initialized {				
+		height: auto;				
+		overflow: visible;				
+	}							
+}			

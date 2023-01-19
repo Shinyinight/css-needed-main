@@ -1,0 +1,40 @@
+label{
+		color: rgba($dark, 0.6);
+		margin-bottom: 0;
+	}
+	.custom-switch{
+		padding-left: 0;
+		label{
+			width: 100%;
+			&:before, &:after{
+				left: auto;
+				right: 0;
+			}
+			&:before{
+				background-color: #f1f2f3;
+				border: none;
+				height: 20px;
+				width: 40px ;
+				@include br12;
+				box-shadow:none !important;
+				outline: 0;
+				top: 1px;
+
+			}
+			&:after{
+				right: 22px;
+				background-color: #fff;
+				height: 14px;
+				width: 14px;
+				top: 4px ;
+			}
+		}
+		.custom-control-input:checked ~ .custom-control-label{
+			&:after{
+				transform: translateX(19px) rotate(357deg);
+			}
+			&:before{
+				@include bg;
+			}
+		}
+	}

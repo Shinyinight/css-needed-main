@@ -1,0 +1,10 @@
+.text-outline {
+    -webkit-text-stroke: 1px #03256C;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    fill: transparent;
+    background-image: linear-gradient(90deg,#03256c 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 7% 100%;
+    background-position: 0% 0%;
+}

@@ -1,0 +1,8 @@
+.toast{
+		transform: translateY(110px);
+		opacity: 0;
+		&.show{
+			opacity: 1;
+			transform: translateY(0px);
+		}
+	}

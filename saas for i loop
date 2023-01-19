@@ -1,0 +1,6 @@
+@for $i from 1 through 6 {
+			&:nth-child(#{$i}) .card{
+				animation-delay:0s;
+				animation-delay: 0.2s * $i !important;
+			}
+		}

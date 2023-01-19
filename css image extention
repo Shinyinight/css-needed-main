@@ -1,0 +1,3 @@
+.image img:not([src$=".png"]) {
+    background-image: linear-gradient(135deg,#fe4545,#d70153);
+}
